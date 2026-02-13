@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why You? 💕</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="bgMusic" autoplay loop>
+        <source src="song2.mp3" type="audio/mpeg">
+    </audio>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">💕 My Love 💕</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="why-you.html" class="active">Why You?</a></li>
+                <li><a href="changed-life.html">Changed My Life</a></li>
+                <li><a href="deserves-best.html">You Deserve Best</a></li>
+                <li><a href="distance.html">Distance Means Nothing</a></li>
+                <li><a href="memories.html">Our Memories</a></li>
+                <li><a href="future.html">Our Future</a></li>
+                <li><a href="love-letter.html">Love Letter</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="music-control">
+        <button id="musicBtn" class="music-btn" title="Toggle Music">🎵</button>
+        <span class="music-status">Music On</span>
+    </div>
+
+    <div class="container">
+        <h1 class="page-title">Why You? 💫</h1>
+
+        <div class="reasons-grid">
+            <div class="reason-card">
+                <div class="card-sticker">💕</div>
+                <h3>Your Heart</h3>
+                <p>Despite everything you've been through, your heart is pure and kind. That's why I love you.</p>
+            </div>
+
+            <div class="reason-card">
+                <div class="card-sticker">✨</div>
+                <h3>Your Smile</h3>
+                <p>Your smile lights up my darkest days. When you laugh, the whole world seems brighter.</p>
+            </div>
+
+            <div class="reason-card">
+                <div class="card-sticker">🌸</div>
+                <h3>Your Strength</h3>
+                <p>You're the strongest person I know. You survived heartbreak and came out stronger.</p>
+            </div>
+
+            <div class="reason-card">
+                <div class="card-sticker">💗</div>
+                <h3>Your Dreams</h3>
+                <p>The way you talk about your dreams inspires me. I want to be the one supporting you always.</p>
+            </div>
+
+            <div class="reason-card">
+                <div class="card-sticker">🎀</div>
+                <h3>Your Uniqueness</h3>
+                <p>There's no one else like you in this world. You're irreplaceable and absolutely perfect.</p>
+            </div>
+
+            <div class="reason-card">
+                <div class="card-sticker">💫</div>
+                <h3>Your Love</h3>
+                <p>The love you give me is the most precious thing I've ever received in my life.</p>
+            </div>
+        </div>
+
+        <div class="interactive-section">
+            <h2>Click the hearts to see more reasons! 💕</h2>
+            <div class="clickable-hearts">
+                <button class="heart-btn" onclick="showReason(this)">💓</button>
+                <button class="heart-btn" onclick="showReason(this)">💗</button>
+                <button class="heart-btn" onclick="showReason(this)">💖</button>
+                <button class="heart-btn" onclick="showReason(this)">💝</button>
+            </div>
+            <p id="reason-text" class="reason-display"></p>
+        </div>
+
+        <div class="floating-stickers-page">
+            <div class="sticker-item">🎀</div>
+            <div class="sticker-item">💕</div>
+            <div class="sticker-item">🌸</div>
+        </div>
+
+        <div class="navigation-buttons">
+            <button class="nav-btn" onclick="window.location.href='about.html'">← Back</button>
+            <button class="nav-btn" onclick="window.location.href='changed-life.html'">Next →</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Made with 💕 for someone truly special</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

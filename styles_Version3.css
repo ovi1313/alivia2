@@ -1,0 +1,13 @@
+/* Add this to your existing styles.css */
+
+.custom-images {
+    text-align: center;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-section {
+    text-align: center;
+    margin: 2rem 0;
+}
